@@ -6,15 +6,56 @@
 
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+header h1 {
+    font-weight: 650;
+}
+
+header p {
+    font-weight: 500;
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0 2rem 0;
+    gap: 2rem;
+}
+
+.cards-block {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 2rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    width: 20rem;
+    height: 15rem;
+}
+
+.card-body {
+    margin: 1rem;
 }
