@@ -59,3 +59,11 @@ header p {
 .card-body {
     margin: 1rem;
 }
+
+.animate__animated.animate__backInLeft {
+    animation-delay: 2s;
+}
+
+.animate__animated.animate__backInRight {
+    animation-delay: 6s;
+}
